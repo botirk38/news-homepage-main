@@ -1,0 +1,50 @@
+@import "../index";
+
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 80vh;
+    background-color: $very-dark-blue;
+    margin-left:-3rem;
+  
+    .newsletter-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      padding: 2rem;
+      width: 80%;
+      max-width: 800px;
+      border-bottom: 1px solid $grayish-blue;
+    }
+  
+    h1 {
+      font-size: $body-copy-font-size * 3;
+      margin-bottom: 1rem;
+      color: $soft-orange;
+      padding: 0 2rem;
+      font-weight: $body-copy-font-weight-extra-bold;
+    }
+  
+    h2 {
+      font-size: $body-copy-font-size * 2;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      padding: 0 2rem;
+      color: $off-white;
+      font-weight:$body-copy-font-weight-bold;
+      
+    }
+  
+    p {
+      font-size: $body-copy-font-size;
+      color: $grayish-blue;
+      margin-bottom: 2rem;
+      font-weight:$body-copy-font-weight-regular;
+      padding: 0 2rem;
+    }
+  }

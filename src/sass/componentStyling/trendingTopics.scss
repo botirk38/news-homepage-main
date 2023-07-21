@@ -1,0 +1,47 @@
+@import "../index";
+
+.trending-topics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    max-width: 100%;
+    margin-left: 10em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    .trending-topics-item {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .trending-topics-item-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        h1{
+            font-size: $body-copy-font-size * 3;
+            color: $grayish-blue;
+            font-weight: $body-copy-font-weight-bold;
+            margin-bottom:1rem;
+        }
+
+        h2{
+            font-size: $body-copy-font-size * 1.5;
+            color: $very-dark-blue;
+            font-weight: $body-copy-font-weight-bold;
+            margin-top:0;
+        }
+
+        p{
+            font-size: $body-copy-font-size;
+            color: $dark-grayish-blue;
+            font-weight: $body-copy-font-weight-regular;
+            margin-top:0;
+            width: 80%;
+        }
+    }
+}
+

@@ -1,0 +1,82 @@
+@import "../index";
+
+.hero{
+    display: grid;
+    justify-items: start;
+    height: 80vh;
+    width: 75%;
+    padding: 0 5%;
+    margin-left:2rem;
+    margin-right:0.5rem;
+  
+ 
+    
+    .img-container{
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        max-width: 100%;
+      
+    }
+
+    .img-container img{
+        object-fit: cover;
+        object-position: center;
+        margin-left:5rem;
+        height:auto;
+        width:100%;
+        min-height:100%;
+    }
+
+    .hero-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-title{
+        font-size: 3rem;
+        font-weight: 800;
+        color: $very-dark-blue;
+        margin-bottom: 1rem;
+        width:30%;
+        padding: 0 5rem;
+    }
+
+    .hero-text-button{
+        display:flex;
+        flex-direction:column;
+        
+        .hero-paragraph{
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: $dark-grayish-blue;
+            margin-bottom: 1rem;
+            width:60%;
+           
+        }
+
+        .hero-button{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width: 20rem;
+            height: 5rem;
+            background-color: $soft-red;
+            color: $off-white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 1rem;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            &:hover{
+                background-color: $soft-orange;
+            }
+        }
+    }
+}

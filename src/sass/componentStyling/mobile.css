@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+    height: 60vh;
+  }
+  .hero .img-container img {
+    margin-left: 0;
+    width: 100%;
+  }
+  .hero .hero-text {
+    flex-direction: column;
+  }
+  .hero .hero-title,
+  .hero .hero-text-button .hero-paragraph,
+  .hero .hero-text-button .hero-button {
+    width: 100%;
+    padding: 0;
+  }
+  .hero .hero-title {
+    font-size: 2rem;
+  }
+  nav {
+    display: none;
+  }
+  .newsletter {
+    height: auto;
+    margin-left: 0;
+  }
+  .newsletter .newsletter-item {
+    width: 100%;
+  }
+  .trending-topics {
+    margin-left: 1em;
+  }
+  .App .hero-newsletter-container {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .newsletter .newsletter-item .newsletter-item-text {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mobile.css.map */

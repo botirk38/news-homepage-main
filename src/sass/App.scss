@@ -1,0 +1,27 @@
+@import './componentStyling/hero.scss';
+@import './componentStyling/navbar.scss';
+@import './componentStyling/newsletter.scss';
+@import "./componentStyling/trendingTopics.scss";
+@import "./componentStyling/mobile.scss";
+
+
+
+body{
+    font-family:$body-copy-font-family;
+}
+
+.App {
+    display: grid;
+    grid-auto-flow: row;
+
+    .hero-newsletter-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+  }
+
+
+  
+    

@@ -1,0 +1,42 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80vh;
+  background-color: hsl(240, 100%, 5%);
+  margin-left: -3rem;
+}
+.newsletter .newsletter-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem;
+  width: 80%;
+  max-width: 800px;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+.newsletter h1 {
+  font-size: 45px;
+  margin-bottom: 1rem;
+  color: hsl(35, 77%, 62%);
+  padding: 0 2rem;
+  font-weight: 800;
+}
+.newsletter h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+}
+.newsletter p {
+  font-size: 15px;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: 2rem;
+  font-weight: 400;
+  padding: 0 2rem;
+}/*# sourceMappingURL=newsletter.css.map */
