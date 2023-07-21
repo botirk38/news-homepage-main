@@ -73,7 +73,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   padding: 0 2rem;
   height: 5rem;
   background-color: #fff;
@@ -185,6 +185,21 @@ nav ul li:hover {
   width: 80%;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  display: grid;
+  grid-auto-flow: row;
+}
+.App .hero-newsletter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     width: 100%;
@@ -194,9 +209,8 @@ nav ul li:hover {
   }
   .hero .img-container img {
     margin-left: 0;
-    width: 100%;
   }
-  .hero .hero-text {
+  .hero .hero-text .hero-text-button {
     flex-direction: column;
   }
   .hero .hero-text .hero-text-button .hero-paragraph {
@@ -228,22 +242,6 @@ nav ul li:hover {
   }
   .App .hero-newsletter-container {
     flex-direction: column;
-  }
-  .newsletter .newsletter-item .newsletter-item-text {
-    width: 100%;
-  }
-}
-body {
-  font-family: "Inter", sans-serif;
-}
 
-.App {
-  display: grid;
-  grid-auto-flow: row;
-}
-.App .hero-newsletter-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  }
 }/*# sourceMappingURL=App.css.map */
